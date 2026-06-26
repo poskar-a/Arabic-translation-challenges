@@ -1,10 +1,10 @@
-# WMT26 Arabic-Asian Machine Translation Challenge
+# Arabic-Centric Machine Translation Framework
 
-A comprehensive machine translation fine-tuning and evaluation framework for Arabic-to-Asian language pairs (English, Hindi, Urdu). This project fine-tunes three state-of-the-art multilingual translation models and evaluates them across multiple metrics.
+A research-oriented machine translation fine-tuning and evaluation framework for Arabic-centric translation across English, Hindi, and Urdu. This repository supports the experiments, analysis, and results reported in the accompanying ArabicNLP paper submission while keeping the original code structure and workflow intact.
 
-## Project Overview
+## Overview
 
-This challenge focuses on:
+This study focuses on:
 - **Language Pairs**: Arabic ↔ English, Arabic ↔ Hindi, Arabic ↔ Urdu (6 directions total)
 - **Models**: NLLB-200 (3.3B), MADLAD-400 (10B), GemmaX2 (28.9B)
 - **Approach**: 
@@ -297,9 +297,17 @@ python pipelines/infer_nllb.py \
 | [pipelines/evaluate.py](pipelines/evaluate.py) | Multi-metric evaluation framework |
 | [EDA/CORPUS_ANALYSIS.md](EDA/CORPUS_ANALYSIS.md) | Detailed corpus statistics |
 
-## License & Attribution
+## Acknowledgments
 
-This project is part of the WMT26 Arabic-Asian Machine Translation Challenge.
+We acknowledge the WMT 2026 Arabic-Asian Machine Translation Challenge for providing the parallel datasets used in this project.
+
+## License
+
+This work is released under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+Under this license, you are free to share and adapt the material for non-commercial purposes, provided that appropriate credit is given, a link to the license is included, and any changes are indicated.
+
+For the full license terms, see https://creativecommons.org/licenses/by-nc/4.0/.
 
 ## Support
 
